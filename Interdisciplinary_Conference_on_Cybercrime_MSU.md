@@ -30,12 +30,12 @@
 ##### Speaker: Dr. Betty Cheng
 
 - Autonomous mobility ecosystem
-- In a few years, we will achieve level 4 or level 5 autonomity
+- In a few years, we will achieve level 4 or level 5 autonomy
 - Is this exciting or scary?
 - connected cars: communication between cars can become a security problem
-- this communication is complex; there are many sensors , AI, training data
+- this communication is complex; there are many sensors, AI, training data
 
-> Wired video of compromising a Jeep cherokee video
+> Wired video of compromising a Jeep Cherokee video
 
 > Link to study automobile vulnerabilities: [link](https://www.upstream.auto/)
 
@@ -66,7 +66,7 @@
 
 > We still don't have a lot of data to understand the range of vulnerabilities
 
-- Automotive industry is competetive. How do OEMs, suppliers, and everyone work together?
+- Automotive industry is competitive. How do OEMs, suppliers, and everyone work together?
 - First steps:
   - Map the threat surface
   - How much knowledge do you need to attack?
@@ -79,11 +79,74 @@
   - Media player
   - Dealer pass-through
   
-> Keyfob attacks are the only vehicle cyberattacks that we have seen in the wild
+> Key fob attacks are the only vehicle cyberattacks that we have seen in the wild
 
-- The motivation for criminals to perform the keyfob attack is immediate gratification (steal the vehicle)
+- The motivation for criminals to perform the key fob attack is immediate gratification (steal the vehicle)
 - Security design patterns
 - Security certification of autonomous systems
 
+##### Mr. Nils Kessler
 
+- Build logs into your system by law and an entity cannot say 'no' to law officers requesting logs
+- Easier to do in countries such as China which is an authoritarian state
 
+> We are going to do it or we will throw you out. On the other hand, we must convince a lot of people.
+
+- These days organizations are observed saying "we're the privacy guys, we don't do it (provide logs to law enforcement)"
+- The argument against providing backdoors is "if we install a backdoor, bad guys can access it too"
+- San Bernardino iPhone case. 
+- Motive: cause damage to computer system. Example: stance against animal cruelty
+- Ransomware:
+  1. Publish sensitive information
+  2. Destroy critical information
+  3. Deny access to the system
+  
+- Motive: DDoS attacks
+- Motive: Data theft
+- Theft of PII (Personally Identifiable information)
+- Theft of IP (Intellectual Property)
+  - Example: trade secret of steel manufacturing company
+
+> Follow the money
+
+- Example: wire transfer, trace the bank records
+  - lot harder in the case of ransomware
+  - no bread crumbs anymore
+  - easier to cyberattack from outside of the United States
+  - harder to get cooperation from foreign governments
+  
+- Carding schemes
+- Fraud schemes:
+  - romance scheme
+  - investment scams
+  - elderly fraud
+    - elderly are mostly vulnerable because of the time they grew up in (more implicit trust)
+    
+- Sex-tortion (compromising material)
+  - younger people are more vulnerable
+  - younger people tend to overshare on social media
+  
+- Stalking and harassment
+- Doxxing
+- Book recommendation: `Midnight in Chernobyl`
+- IoT security (Ring doorbell)
+
+> Everything is integrated with the network
+
+- Social engineering (not so technical)
+  -example scenario: phone rings, number identified on phone as bank, doesn't jump right into asking for private info, you think it's legit, 5 minutes deep asks for PIN number, transfers a huge amount of money after hanging up.
+  
+> Not everything (that pops up) on your phone is authentic 
+
+- Business email compromise (BEC)
+  - example: vulnerability inside Outlook as installed straight out-of-the-box makes it easier to get inside.
+  - scenario: email coming from supervisor asking to authorize wire transfer to a vendor. The vender is a shell company.
+  - rules are set up such that the email alert never shows up.
+  
+- Introducing malware
+
+> Security does not matter if somebody has already got a keylogger in
+
+- Botnets: turn zombies to perform DDoS
+- Hop point: basically, a proxy between your computer and the attacker's computer
+- RAT (trojan)
