@@ -85,7 +85,7 @@
 - Security design patterns
 - Security certification of autonomous systems
 
-##### Mr. Nils Kessler
+##### Speaker: Mr. Nils Kessler
 
 - Build logs into your system by law and an entity cannot say 'no' to law officers requesting logs
 - Easier to do in countries such as China which is an authoritarian state
@@ -150,3 +150,75 @@
 - Botnets: turn zombies to perform DDoS
 - Hop point: basically, a proxy between your computer and the attacker's computer
 - RAT (trojan)
+
+#### Day 2
+
+##### Mr. Douglas McKee
+
+- ATR (threat research team discovering 0-days)
+- Team consists of reverse engineering, threat hunting, general security experts (e.g. an expert in cryptocurrency)
+- Why do vulnerability research?
+  - discover weaknesses that can be exploited
+  - hold vendors accountable
+  - keep the bad guys in check (bad guys generally have more time to discover security flaws)
+  - bring awareness in the industry
+
+> minor flaws can have major impact!
+
+- Example: medical systems, surveillance software
+- Responsible disclosure:
+  - software - 90 days
+  - hardware - 180 days
+  - > goal is not to expose vendors
+  - different timelines for critical systems
+  - example: IoT device, automotive, malware operation
+  
+- Hacking patient vitals
+- could directly impact human life
+- vitals are integrated into critical decision making
+  - example: heartrate, O2 level
+- influencing vitals is highly impactful
+
+> We have implicit trust - Dr. Jess Tully
+
+- communication between patient monitor and CMS
+- they create their own protocol -- this is a problem
+  - no authentication, no encryption, traffic is broadcasted
+  
+> demo of the hack
+
+- people doubt the impact of this hack since you have to be on the same broadcast network
+  - you can easily get inside waiting rooms
+  - in some cases, guest network is where medical devices are connected as well
+  - nurses can walk away without locking their workstations
+  
+> treatment that you don't need is probably not a good treatment
+
+- doctors can do an inside job for an insurance fraud
+
+IoT
+- Wemo insight smart plug
+- fuzzing caused a crash
+- 2 months of exploitation to exploit a buffer overflow
+- can only send some printable XML because of UpNp limitations
+- WiFi: crack the WPA2 password, perform recon on the network, find Wemo, use exploit
+- UpNp for opening a port on the router
+- lesson: don't put consumer electronics on business network
+
+Box lock
+- features: unlock via barcode scanner or via mobile application
+- requires WiFi
+- hardware interface: JTAG
+- JTAG was secure
+- BLE: had no encryption or authentication
+- all fields are r/w enabled
+- reversed the Android app and discovered the 'sendopenSignal'
+- Nordic app
+- unlock box
+
+> lesson: security has not kept up with the explosion in connectivity
+
+- we need to keep an eye on what vendors are allowed to produce
+- compliance should not be just to pass a test
+- lots security products and solutions. We should not get caught up with false sense of security
+
