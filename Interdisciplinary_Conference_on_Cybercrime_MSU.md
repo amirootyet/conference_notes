@@ -222,3 +222,76 @@ Box lock
 - compliance should not be just to pass a test
 - lots security products and solutions. We should not get caught up with false sense of security
 
+#### Speaker: Mr. Joshua Dalman
+
+- RDP-based ransomware
+
+> Demo of restore point to get deleted files back
+
+- Top trends in 2019:
+  - ransomware
+  - business email compromise
+ 
+- 12.5 billion in losses from 2013 - 2018 due to business email compromise
+- Docusign (phishing link)
+- creating the auto forward rule in Outlook
+- Trick finance department into wiring money to the hacker's account
+- Nation state Iranian threat actors
+- prevent business email compromise:
+  - audit logging
+  - user awareness
+  - multi factor authentication
+  - perform internal checks for accounts
+  
+- Office 365 logs (unified audit log)
+- acquire audit logs through portal.office.com
+  - 50,000 limit
+  - powershell
+
+- Splunk primer
+  - geo-location
+  - visualization
+  - JSON blob import
+  
+- compromised user can be looked at with land speed violations
+  - example: somebody traveling at 450 mph
+ 
+- did the attacker download PII? Look at trace logs.
+
+- What is ransomware?
+- attack vectors: RDP, phishing etc.
+- cryptolocker
+- email-based ransomware
+  - cryptolocker
+  - locky
+  - scarab
+  - sigma
+ 
+- if you have backups, you might be able to just wipe the system and reinstall the OS
+- sigma ransomware: attacker sends a password protected document, it prompts to enable the macro, encrypts files and demands $400 in ransom. This ransomware also seeks to encrypt network shares
+- RDP-based ransomware looking to exploit port 3389
+  - easy to discover 1.8 million systems with RDP exposed on the Internet
+- Samsam (RDP-based), uses an AES matrix
+  - Ransomware-as-a-service
+  - demands large ransom amount from the city of Atlanta
+  - generated $5.9 million in total payments
+  - developers were Iranian hackers (extradition becomes tricky)
+  
+- Dharma ransomware
+  - has a long dwell time
+  - comparatively script kiddies
+  - run everything from romance scams to spams
+
+- protection against ransomware
+  - disable RDP if not needed
+  - use VPN
+  - use MFA
+  - use strong passwords
+  - good email security (examine attachments)
+  - user awareness and training
+  - disable smb1
+  - if threat is found, quickly isolate the machine
+  - keep offline backups
+  
+
+   
