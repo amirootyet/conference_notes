@@ -323,5 +323,42 @@ Box lock
   - there are challenges on the police and law enforcement side 
 
 
+##### Speaker: Mr. Seth Edgar
+
+- top 3 security trends:
+  - email scams
+  - web apps
+  - end point
+  
+- university is a collection of a lot of businesses
+- out of the 200 million emails received in a month, 177 are spam
+- Since the days of ARPANET, we have publicly routed IPs at MSU
+  - everyone is able to put up a web server on these IPs that MSU has to clean up
+  
+- researchers have grants that require legacy systems up and running
+- security for such heterogenous devices is difficult at scale
+- security trends at MSU:
+
+  | Trends | Statistics |
+  | ------ | ------ |
+  | Vulnerability remediation | 156,309 |
+  | Antivirus | 21,012 |
+  
+> all data is meant to be available everywhere implies a massive cleanup effort
+
+- identify high value assets
+- data threats:
+  - loss
+  - theft
+  - exposure
+  - modification
+  
+- prioritization:
+  - severity
+  - probability
+  - delivery
+  - tactics
+  
+- MSU is a collection of number of industries and threats faced are hence multidimensional
 
    
