@@ -302,7 +302,7 @@ Box lock
   - cyber bullying
   - online buying and selling
   
-- online, self reporting
+- online, self-reporting
 - UK equivalent (Action Fraud)
 - ACORN by ACIC (federal agency)
 - objective:
@@ -311,7 +311,7 @@ Box lock
   - collect and aggregate database
 
 - issues observed:
-  - repoting at multiple places
+  - reporting at multiple places
   - little change in public awareness
   - low satisfaction with the outcome
   
