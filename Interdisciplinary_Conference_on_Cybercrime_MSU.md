@@ -293,5 +293,35 @@ Box lock
   - if threat is found, quickly isolate the machine
   - keep offline backups
   
+#### Speaker: Dr. Cassandra Cross
+
+- Reporting cybercrimes in Australia
+- Overview of ACORN (Australian cybercrime online)
+- Reporting network:
+  - online scams
+  - cyber bullying
+  - online buying and selling
+  
+- online, self reporting
+- UK equivalent (Action Fraud)
+- ACORN by ACIC (federal agency)
+- objective:
+  - central online agency
+  - refer to police
+  - collect and aggregate database
+
+- issues observed:
+  - repoting at multiple places
+  - little change in public awareness
+  - low satisfaction with the outcome
+  
+- evaluation results:
+  - victims have unrealistic expectations
+  - victims feel they are unique, but you're dealing with thousands of other victims
+  - only 3 victims said that their offender was arrested
+  - victims were using the portal to get some attention to their issues
+  - there are challenges on the police and law enforcement side 
+
+
 
    
