@@ -37,7 +37,7 @@
 - Connected cars: communication between cars can become a security problem
 - This communication is complex; there are many sensors, AI, training data
 
-> Wired video of compromising a Jeep Cherokee video
+> [Wired video](https://www.youtube.com/watch?v=MK0SrxBC1xs) of compromising a Jeep Cherokee
 
 > [Link](https://www.upstream.auto/) to study automobile vulnerabilities
 
